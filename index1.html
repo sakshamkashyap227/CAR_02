@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Defender — Born Unstoppable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,300;0,400;0,600;1,300&family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+
+  
+  <div id="cursor"></div>
+  <div id="cursor-dot"></div>
+  <div id="cursor-label"></div>
+
+  
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">DEFENDER</div>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+      <div class="loader-text">Loading Experience</div>
+    </div>
+  </div>
+
+  
+  <nav id="nav">
+    <div class="nav-logo">
+      <span class="nav-brand">LAND ROVER</span>
+      <span class="nav-model">DEFENDER</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#models">Models</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#specs">Specs</a></li>
+    </ul>
+    <a class="nav-cta" href="#models">Configure</a>
+  </nav>
+
+
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-video-wrap">
+      <video autoplay muted loop playsinline id="hero-video">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4"/>
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">2025 Collection</p>
+      <h1 class="hero-title">BORN<br/><em>UNSTOPPABLE</em></h1>
+      <p class="hero-sub">Three variants. One legend. Zero compromises.</p>
+      <div class="hero-actions">
+        <a href="#models" class="btn-primary">Explore Models</a>
+        <a href="#gallery" class="btn-ghost">Watch Film</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-badge">
+      <span>SINCE</span>
+      <strong>1948</strong>
+    </div>
+  </section>
+
+
+  <section id="models">
+    <div class="section-header">
+      <p class="section-eyebrow">Choose Your Legend</p>
+      <h2 class="section-title">THE MODELS</h2>
+    </div>
+
+    <div class="models-grid">
+
+
+      <div class="model-card" data-model="90">
+        <div class="model-card-inner">
+          <div class="model-num">90</div>
+          <div class="model-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=900&q=80"
+              alt="Defender 90"
+              class="model-img"
+              loading="lazy"
+            />
+            <div class="model-img-glow"></div>
+          </div>
+          <div class="model-info">
+            <h3 class="model-name">Defender 90</h3>
+            <p class="model-tag">3-Door · Compact Icon</p>
+            <p class="model-desc">The original shape. Urban agility meets untamed spirit — the shortest Defender with the biggest personality.</p>
+            <ul class="model-specs-mini">
+              <li><span>0–100</span><strong>5.6s</strong></li>
+              <li><span>Power</span><strong>400hp</strong></li>
+              <li><span>Terrain</span><strong>Wade 900mm</strong></li>
+            </ul>
+            <div class="model-price">From <strong>£56,900</strong></div>
+            <button class="model-btn" data-target="90">Explore →</button>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="model-card featured" data-model="110">
+        <div class="model-card-badge">Most Popular</div>
+        <div class="model-card-inner">
+          <div class="model-num">110</div>
+          <div class="model-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=900&q=80"
+              alt="Defender 110"
+              class="model-img"
+              loading="lazy"
+            />
+            <div class="model-img-glow"></div>
+          </div>
+          <div class="model-info">
+            <h3 class="model-name">Defender 110</h3>
+            <p class="model-tag">5-Door · Family Conqueror</p>
+            <p class="model-desc">Room for every adventure. The 110 blends commanding off-road capability with genuine everyday comfort.</p>
+            <ul class="model-specs-mini">
+              <li><span>0–100</span><strong>5.4s</strong></li>
+              <li><span>Power</span><strong>400hp</strong></li>
+              <li><span>Terrain</span><strong>Wade 900mm</strong></li>
+            </ul>
+            <div class="model-price">From <strong>£63,100</strong></div>
+            <button class="model-btn" data-target="110">Explore →</button>
+          </div>
+        </div>
+      </div>
+
+    
+      <div class="model-card" data-model="130">
+        <div class="model-card-inner">
+          <div class="model-num">130</div>
+          <div class="model-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1622126807280-3f1e52ee78b2?w=900&q=80"
+              alt="Defender 130"
+              class="model-img"
+              loading="lazy"
+            />
+            <div class="model-img-glow"></div>
+          </div>
+          <div class="model-info">
+            <h3 class="model-name">Defender 130</h3>
+            <p class="model-tag">8-Seat · Expedition Grade</p>
+            <p class="model-desc">Maximum people, maximum terrain. The 130 carries eight in luxury while tackling anything the world throws at it.</p>
+            <ul class="model-specs-mini">
+              <li><span>0–100</span><strong>5.4s</strong></li>
+              <li><span>Power</span><strong>400hp</strong></li>
+              <li><span>Terrain</span><strong>Wade 900mm</strong></li>
+            </ul>
+            <div class="model-price">From <strong>£74,500</strong></div>
+            <button class="model-btn" data-target="130">Explore →</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="features">
+    <div class="section-header">
+      <p class="section-eyebrow">Built Different</p>
+      <h2 class="section-title">CORE FEATURES</h2>
+    </div>
+
+    <div class="features-showcase">
+
+      <div class="feature-item" data-delay="0">
+        <div class="feature-visual">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=700&q=80" alt="Terrain Response" loading="lazy"/>
+          <div class="feature-overlay">
+            <span class="feature-icon">⬡</span>
+          </div>
+        </div>
+        <div class="feature-body">
+          <h3>Terrain Response® 2</h3>
+          <p>Automatic terrain detection adapts drivetrain, suspension and braking for any surface — from ice to rock.</p>
+          <ul class="feature-list">
+            <li>Auto Surface Detection</li>
+            <li>6 Terrain Modes</li>
+            <li>Real-Time Adjustment</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature-item reverse" data-delay="100">
+        <div class="feature-visual">
+          <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0729?w=700&q=80" alt="Air Suspension" loading="lazy"/>
+          <div class="feature-overlay">
+            <span class="feature-icon">◈</span>
+          </div>
+        </div>
+        <div class="feature-body">
+          <h3>Electronic Air Suspension</h3>
+          <p>Raises 145mm above standard for maximum clearance off-road, lowers for easy entry on-road.</p>
+          <ul class="feature-list">
+            <li>291mm Ground Clearance</li>
+            <li>Configurable Ride Height</li>
+            <li>Self-Levelling Load</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature-item" data-delay="200">
+        <div class="feature-visual">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=700&q=80" alt="PIVI Pro" loading="lazy"/>
+          <div class="feature-overlay">
+            <span class="feature-icon">◉</span>
+          </div>
+        </div>
+        <div class="feature-body">
+          <h3>PIVI Pro Infotainment</h3>
+          <p>11.4" curved glass touchscreen with over-the-air updates, 3D maps, and seamless device integration.</p>
+          <ul class="feature-list">
+            <li>11.4" Curved Display</li>
+            <li>Over-the-Air Updates</li>
+            <li>Apple CarPlay / Android Auto</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="feature-item reverse" data-delay="300">
+        <div class="feature-visual">
+          <img src="https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=700&q=80" alt="Wade Sensing" loading="lazy"/>
+          <div class="feature-overlay">
+            <span class="feature-icon">◇</span>
+          </div>
+        </div>
+        <div class="feature-body">
+          <h3>Wade Sensing</h3>
+          <p>Ultrasonic sensors monitor water depth in real time, allowing you to wade up to 900mm with confidence.</p>
+          <ul class="feature-list">
+            <li>900mm Wading Depth</li>
+            <li>Real-Time Depth Sensor</li>
+            <li>Automatic Engine Protection</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="gallery">
+    <div class="section-header">
+      <p class="section-eyebrow">In Its Element</p>
+      <h2 class="section-title">GALLERY</h2>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item tall" data-cursor="Explore">
+        <img src="https://images.unsplash.com/photo-1614027164847-1b28cfe1df60?w=800&q=80" alt="Defender off-road" loading="lazy"/>
+        <div class="gallery-caption">Mountain Pass · Norway</div>
+      </div>
+      <div class="gallery-item" data-cursor="Explore">
+        <img src="https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=800&q=80" alt="Defender 110" loading="lazy"/>
+        <div class="gallery-caption">Desert Run · Namibia</div>
+      </div>
+      <div class="gallery-item" data-cursor="Explore">
+        <img src="https://images.unsplash.com/photo-1622126807280-3f1e52ee78b2?w=800&q=80" alt="Defender 130" loading="lazy"/>
+        <div class="gallery-caption">Coast Road · Iceland</div>
+      </div>
+      <div class="gallery-item wide" data-cursor="Explore">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1200&q=80" alt="Defender interior" loading="lazy"/>
+        <div class="gallery-caption">Studio Interior · London</div>
+      </div>
+      <div class="gallery-item" data-cursor="Explore">
+        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Defender terrain" loading="lazy"/>
+        <div class="gallery-caption">Mud Terrain · Scotland</div>
+      </div>
+      <div class="gallery-item" data-cursor="Watch">
+        <video autoplay muted loop playsinline class="gallery-video">
+          <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4"/>
+        </video>
+        <div class="gallery-caption gallery-play">▶ Film · 2:34</div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="specs">
+    <div class="section-header">
+      <p class="section-eyebrow">Under The Skin</p>
+      <h2 class="section-title">SPECIFICATIONS</h2>
+    </div>
+
+    <div class="specs-tabs">
+      <button class="spec-tab active" data-engine="p400">P400 Petrol</button>
+      <button class="spec-tab" data-engine="d250">D250 Diesel</button>
+      <button class="spec-tab" data-engine="phev">PHEV</button>
+    </div>
+
+    <div class="specs-grid" id="specs-grid">
+    
+    </div>
+
+    <div class="specs-bar-section">
+      <h3 class="specs-bar-title">Performance at a Glance</h3>
+      <div class="spec-bars" id="spec-bars"></div>
+    </div>
+  </section>
+
+  
+  <div id="pop-overlay" class="pop-overlay hidden">
+    <button id="pop-close" class="pop-close">✕</button>
+    <div class="pop-inner">
+      <div class="pop-model-3d" id="pop-3d-scene">
+        <div class="cube-wrap" id="car-cube">
+          <div class="cube-face front"></div>
+          <div class="cube-face back"></div>
+          <div class="cube-face left"></div>
+          <div class="cube-face right"></div>
+          <div class="cube-face top"></div>
+          <div class="cube-face bottom"></div>
+        </div>
+      </div>
+      <div class="pop-details" id="pop-details"></div>
+    </div>
+  </div>
+
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-logo">DEFENDER</div>
+        <p>Born unstoppable. Built forever.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Models</h4>
+          <a href="#">Defender 90</a>
+          <a href="#">Defender 110</a>
+          <a href="#">Defender 130</a>
+        </div>
+        <div class="footer-col">
+          <h4>Experience</h4>
+          <a href="#">Test Drive</a>
+          <a href="#">Configure</a>
+          <a href="#">Dealers</a>
+        </div>
+        <div class="footer-col">
+          <h4>Owners</h4>
+          <a href="#">My Defender</a>
+          <a href="#">Service</a>
+          <a href="#">Accessories</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Land Rover. All rights reserved.</span>
+      <span>Defender. Built for the Real World.</span>
+    </div>
+  </footer>
+
+  <script src="javascript1.js"></script>
+</body>
+</html> 
+
